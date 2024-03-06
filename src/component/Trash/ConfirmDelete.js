@@ -27,7 +27,7 @@ const ConfirmDelete = (props) => {
           className="px-4 border-0 shadow bg-gradient  rounded-pill"
           onClick={props.emptyTrashHandler}
         >
-          OK
+          Ok
         </Button>
       </Modal.Footer>
     </Modal>
