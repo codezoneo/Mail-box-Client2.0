@@ -22,7 +22,7 @@ const Selector = (props) => {
         </Form>
       }
       className="p-0"
-      disabled={props.filteredMails.length === 0}
+      disabled={props.filteredMails.length == 0}
     >
       <Dropdown.Item
         as={"button"}
