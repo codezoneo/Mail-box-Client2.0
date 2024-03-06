@@ -67,7 +67,7 @@ const Sent = () => {
         <div className=" d-flex h-50 justify-content-center align-items-center">
           <LoadingSpinner />
         </div>
-      ) : sentMails.length === 0 ? (
+      ) : sentMails.length ===0 ? (
         <>
           <EmptyMessage
             message="No sent messages!"
