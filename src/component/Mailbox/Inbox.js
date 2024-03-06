@@ -2,7 +2,7 @@ import { ListGroup, Button } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
 import MailListItems from "./MailListItems";
-import { moveFromInbox} from "../../store/mailSlice";
+import { moveFromInbox } from "../../store/mailSlice";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import { showNotification } from "../../store/authSlice";
 import Selector from "./Selector";
@@ -44,7 +44,7 @@ const Inbox = () => {
       console.log(error.message);
     }
   };
-  useUnselect(dispatch)
+  useUnselect(dispatch);
 
   return (
     <div className="">
@@ -69,7 +69,7 @@ const Inbox = () => {
           <LoadingSpinner />
         </div>
       ) : filteredMails.length === 0 ? (
-        <EmptyMessage message = "Your inbox is empty!"/>
+        <EmptyMessage message="Your inbox is empty!" />
       ) : (
         <ListGroup variant="flush" className="overflow-auto">
           {filteredMails.map((mail) => (
