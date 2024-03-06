@@ -75,7 +75,7 @@ const Sent = () => {
               <>
                 <Link to="/welcome/mailboxeditor">
                   <span>Send</span>
-                </Link> {" "}
+                </Link>{" "}
                 one now!
               </>
             }
