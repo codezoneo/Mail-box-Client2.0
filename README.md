@@ -1,4 +1,4 @@
-# Mail Box Client App
+# Mail box App 
 
 This is a Mailbox Client App built using React, Redux, and Firebase backend. It allows users to send, receive, delete, and star emails.
 ##  Features
@@ -20,10 +20,10 @@ This is a Mailbox Client App built using React, Redux, and Firebase backend. It 
 
 ## Usage
 
-1. Open the app in your browser by visiting: https://mailbox-client-axhar.netlify.app
-2. Create an account with an email and password.
+
+1. Create an account with an email and password.
 3. Log in using your email and password.
 4. Use the app to send, receive, delete, and star emails.
 
 ## Contact
-For any inquiries or feedback, please contact azharibraheem482@gmail.com.
+For any inquiries or feedback, please contact anuragtri83@gmail.com.
